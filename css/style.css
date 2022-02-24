@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #ededed;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+header{
+    background: #fff;
+}
+.header-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+    max-width: 40%;
+    padding: 15px;
+}
+nav{
+    flex-basis: 70%;
+    max-width: 70%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    flex-basis: 13%;
+    list-style: none;
+}
+nav ul li a{
+    padding: 15px;
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #1e1ef1;
+}
+.about-us{
+    margin: 100px 0;
+}
+.about-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 19px;
+}
+.about p{
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about a{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    background: #000;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+.about a:hover{
+    border: 1px solid #000;
+    background: #4045e7;
+    color: #fff;
+    font-size: 15px;
+}
+.image{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.image img{
+    width: 100%;
+}
+
+.portfolio-section{
+    background: #e3e4e5;
+    padding: 100px 0;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding-left: 5px;
+}
+.picture img{
+    max-width: 100%;
+}
+.heading{
+    margin: 30px 0;
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.heading p{
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
